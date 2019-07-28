@@ -16,33 +16,41 @@
     <div class="navigation-container">
       <div class="account-navigation">
         <div>Already have an Intuit account?</div>
-        <a class="account-recovery" href=#>I forgot my User ID or Password</a>
+        <a class="account-recovery link-text" href=#>I forgot my User ID or Password</a>
       </div>
-      <div class="sign-in">
-        <button class="sign-in-button">Sign In</button>
+      <div class="sign-in-nav">
+        <button class="sign-in-button">
+          <span class="submit-image"><i class="fas fa-lock"></i></span>
+          <span class="submit-text">Sign In</span>
+        </button>
       </div>
     </div>
   </nav>
 
   <header>
     <div class="title">
-      <a class="intuit-home" href="#"><img class="logo" src="images/logo.jpg" alt="Intuit Logo"></a>
+      <img class="intuit-logo"
+        src="https://www.intuit.com/content/dam/intuit/intuitcom/company/images/logo-intuit-preferred.png"
+        alt="Intuit Logo">
     </div>
     <div class="products-container">
-      <ul class="logos-list">
-        <div class="mint-container">
-          <img class="mint-logo" src="" alt="Mint Logo">
-          <a class="mint-link" href="#">mint</a>
-        </div>
-        <div class="quickbooks-container">
-          <img class="quickbooks-logo" src="" alt="Quickbooks Logo">
-          <a class="quickbooks-link" href="#">quickbooks</a>
-        </div>
-        <div class="turbotax-container">
-          <img class="turbotax-logo" src="" alt="Turbotax Logo">
-          <a class="turbotax-link" href="#">turbotax</a>
-        </div>
-      </ul>
+      <div class="mint-container">
+        <img class="mint-logo"
+          src="https://lh3.googleusercontent.com/kAoKkNJy81qdxeSexsfsfH6DEz114px1qx9zg0Hj3RoonLXxXRBbEp0xIZVVElgihQ=s180"
+          alt="Mint Logo">
+        <a class="mint-link grey-text" href="#">mint</a>
+      </div>
+      <div class="quickbooks-container">
+        <img class="quickbooks-logo" src="https://avantisystems.com/wp-content/uploads/2016/11/Quickbooks-Logo.png"
+          alt="Quickbooks Logo">
+        <a class="quickbooks-link grey-text" href="#">quickbooks</a>
+      </div>
+      <div class="turbotax-container">
+        <img class="turbotax-logo"
+          src="http://dl.memuplay.com/new_market/img/com.intuit.turbotax.mobile.icon.2019-01-23-18-39-23.png"
+          alt="Turbotax Logo">
+        <a class="turbotax-link grey-text" href="#">turbotax</a>
+      </div>
     </div>
   </header>
 
@@ -51,29 +59,27 @@
       <div class="form-title-container">
         <h1>Create an Intuit account</h1>
         <h2>One account for everything Intuit, including Mint.</h2>
-        <a class="learn-more-link" href="#">Learn more</a>
+        <a class="learn-more-link link-text" href="#">Learn more</a>
+        <h2>Already have an account? <a class="learn-more-link link-text" href="#">Sign In</a></h2>
       </div>
       <form>
-        <fieldset class="account-info">
-          <label>
-            Email address
-            <input type="email" name="email-adress">
-          </label>
-          <label>
-            Phone (recommended)
-            <input type="tel" name="phone-number">
-          </label>
-          <label>
-            Password
-            <input type="password" name="password">
-          </label>
-        </fieldset>
-        <fieldset class="account-action">
-          <input class="button" type="submit" name="submit" value="Create Account">
-          <label>
-            <input type="checkbox" name="remember"> Stay signed in
-          </label>
-        </fieldset>
+        <label>
+          Email address
+          <input type="email" name="email-adress">
+        </label>
+        <label>
+          Phone (recommended)
+          <input type="tel" name="phone-number">
+          <p>Standard call, messaging or data rates may apply.</p>
+        </label>
+        <label>
+          Password
+          <input type="password" name="password">
+        </label>
+        <button class="submit-button" name="submit">
+          <span class="submit-image"><i class="fas fa-lock"></i></span>
+          <span class="submit-text">Create Account</span>
+        </button>
         <footer class="terms-and-conds">
           <span>By clicking <a class="create-account-link" href="#">Create account</a>
             , you agree to our <a class="terms-link" href="#">Terms</a>
