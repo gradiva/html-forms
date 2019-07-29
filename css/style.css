@@ -44,6 +44,10 @@ a {
   line-height: 1.5;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 p {
   font-size: 10px;
 }
@@ -106,16 +110,27 @@ header .title {
 }
 
 .intuit-logo {
-  height: 90px; 
+  height: 80px; 
 }
 
 header .products-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
+/* .mint-container, .quickbooks-container, .turbotax-container {
+  padding: 3px;
+  padding-bottom: 0;
+} */
+
 .mint-logo, .quickbooks-logo, .turbotax-logo {
-  height: 30px;
+  height: 25px;
+  margin-right: 4px;
+}
+
+.products-container a {
+  margin-right: 9px;
 }
 
 /******************** Form **********************/
@@ -125,7 +140,7 @@ header .products-container {
   border: 1px solid #c7c7c7;
   width: 380px;
   border-radius: 3px;
-  margin: 25px auto 0 auto;
+  margin: 0 auto 0 auto;
   padding: 30px; 
 }
 
@@ -182,9 +197,9 @@ form input {
 
 .captcha-container {
   background-color: #eceef1;
-  height: 42px;
+  height: 53px;
   width: 346;
-  margin: 32px -30px -30px -30px;
+  margin: 0 -30px -30px -30px;
   padding: 16px; 
   border-top: none;
   text-align: center;
