@@ -51,6 +51,7 @@ a:hover {
 
 p {
   font-size: 10px;
+  padding: 5px 0;
 }
 
 label {
@@ -77,8 +78,8 @@ button .submit-text {
   font-weight: 100;
 }
 
-.grey-text {
-  color: rgb(76, 76, 76); 
+.light-grey-text {
+  color: #8d9096; 
   font-weight: 400;
   font-size: 18px;
   height: 22px;
@@ -203,6 +204,7 @@ form input {
 
 .captcha-container {
   background-color: #eceef1;
+  color: #8d9096;
   height: 53px;
   width: 346;
   margin: 0 -30px -30px -30px;
@@ -212,9 +214,28 @@ form input {
 }
 
 /******************** Footer **********************/
-/* 
-footer ul {
+
+footer.links {
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
- */
+
+.copyright-info {
+  text-align: center;
+}
+
+.footer-links-container {
+  margin-top: 10px; 
+}
+
+.footer-link {
+  display: inline;
+  margin: 0 6px;
+}
+
+.footer-link a {
+  color: rgb(76, 76, 76); 
+}
