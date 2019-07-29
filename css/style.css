@@ -21,6 +21,7 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 fieldset {
+  padding: 0;
   border: none;
 }
 
@@ -62,11 +63,8 @@ button {
   border: 1px solid #4c4c4c;
   border-radius: 4px;
   color: #FFF;
-  font-size: 16px;
   cursor: pointer;  
   padding: 10px;
-  height: 40px;
-  width: 100%;
 }
 
 button .submit-image {
@@ -89,16 +87,27 @@ button .submit-text {
 
 /******************* Nav bar ***********************/
 
+nav {
+  height: 60px;
+}
+
 nav .navigation-container {
   display: flex;
   justify-content: flex-end;
-  /* align-items: center; */
+  align-items: center;
+  margin: 12px 24px;
+}
+
+.account-navigation {
+  padding-right: 10px;
+  margin-top: 2px;
+  color: rgb(97, 97, 97);
+  text-align: right;
 }
 
 .sign-in-button {
-  margin-top: 20px;
-  padding-left: 4px;
-	font-weight: 500;
+  display: inline-block;
+  font-size: 12px;
 }
 
 /***************** Logos ****************************/
@@ -118,11 +127,6 @@ header .products-container {
   justify-content: center;
   margin-bottom: 15px;
 }
-
-/* .mint-container, .quickbooks-container, .turbotax-container {
-  padding: 3px;
-  padding-bottom: 0;
-} */
 
 .mint-logo, .quickbooks-logo, .turbotax-logo {
   height: 25px;
@@ -186,6 +190,8 @@ form input {
 
 .submit-button {
   height: 44px;
+  font-size: 16px;
+  width: 100%;
 }
 
 .terms-and-conds {
